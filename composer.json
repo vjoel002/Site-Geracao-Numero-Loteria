@@ -1,0 +1,14 @@
+{
+    "description": "Teste",
+    "authors": [{
+        "name": "Joel",
+        "email": "joelviltus.edu@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Sts\\": "app/sts",
+            "Core\\": "core"
+        }
+    },
+    "require": {}
+}
