@@ -40,9 +40,8 @@ class Milionaria extends ConfigConversion{
                 $_SESSION['result'] = "<div style='color: green; background: white;
                                         padding: 20px; border: 1px solid green;
                                         border-radius: 5px'>
-                                            O número gerado a partir de <span style='font-weight: bold'>".$loadString."</span> é: 
-                                            ".(round($N,0)).
-                                      "</div>";
+                                        <span style='font-weight: bold'>".$loadString."</span> deu <span style='font-weight: bold'>".(round($N,0)). "</span> para Milion&aacuteria".
+                                        "</div>";
             }
         }
 

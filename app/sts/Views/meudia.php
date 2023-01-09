@@ -16,9 +16,9 @@
                                 <div class="field-lookday textarea">
                                     <input type="date" name="date" required>
                                     <input type="time" name="hour" required>
-                                    <span class="buttom-area-lookday">
+                                    <div class="buttom-area-lookday">
                                         <button type="submit" name="smgSend" value=" ">Calcular</button>
-                                    </span>
+</div>
                                 </div>
                             </form>
                             <div class="result">

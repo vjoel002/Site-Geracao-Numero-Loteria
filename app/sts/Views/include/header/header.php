@@ -9,15 +9,17 @@
     <title>O Ganhador</title>
     <link rel="shortcut icon" href="<?php echo URL; ?>app/sts/assets/images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <section class="header01">
         <div class="intro">
             <div class="header-content">
                 <span>
-                    <img src="<?php echo URL ?>app/sts/assets/images/image-oganhador.png" alt="">
+                    <div class="open-modal-logo"><img src="<?php echo URL ?>app/sts/assets/images/image-oganhador.png" alt=""></div>
                 </span>
                 <span>
-                    Gere números de loteria a partir de palavras 
+                    <?php if(!empty($this->data['database'][0])){extract($this->data['database'][0]); 
+                    echo $content;} ?> 
                     <button class="open-modal-button">Entenda como funciona <i class="fa-solid fa-circle-arrow-right"></i></button>
                 </span>
             </div><br>      

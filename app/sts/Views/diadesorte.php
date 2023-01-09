@@ -28,11 +28,13 @@
        <div class="result-research-form">
                    <!--======================= RESEACH =====================-->
             <div class="title">
-                Você está no <span style='color: blue'>Dia de Sorte</span>. Digite uma palavra
+                <?php if(!empty($this->data['database'][5])){extract($this->data['database'][5]);
+                echo $content;} ?>
             </div>
             <form action="" method="POST">
                 <div class="field textarea">
-                    <input type="text" name="word" id="word" placeholder="Digite uma palavra ou um número" maxlength="17">
+                    <input type="text" name="word" id="word" placeholder="<?php if(!empty($this->data['database'][12])){
+                    extract($this->data['database'][12]); echo $content;} ?>" maxlength="17">
                 </div>
                 <div class="buttom-area">
                     <button type="submit" name="smgSend" value=" ">  Calcular</button>
@@ -69,7 +71,7 @@
                 <p>
                 <?php if(!empty($this->data['database'][4])){extract($this->data['database'][4]);
                     echo $content;} ?>  
-                    <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saíba mais!</a>
+                    <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saiba mais!</a>
                 </p>
                 <table class="numerologyTable">
                     <tr class="tableHead">
@@ -122,7 +124,8 @@
                 </div>
             </div>
             <div class="contact">
-                <p>Se você tem dúvida ou sugestões, por favor, entre em contato com a gente</p>
+                <p><?php if(!empty($this->data['database'][11])){extract($this->data['database'][11]);
+                echo $content;} ?></p>
                 <div class="contactBtn"><?php echo "<a href='".URL."contato' class='fa-solid fa-square-caret-right'>
                             Entre em contato agora</a>" ?></div>
             </div>

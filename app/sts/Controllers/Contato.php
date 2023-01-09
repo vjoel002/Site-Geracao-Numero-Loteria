@@ -25,8 +25,15 @@ class Contato{
             }
         }
 
+        //Pegar dados para listar a conteúdo do site
+        $getDatabase = new \Sts\Models\MainDatabase();
+        $this->data['database'] = $getDatabase->siteData();
+                
+        //Pegar dados para listar os dados bancários
+        $this->data['bankData'] = $getDatabase->bankDataList();
 
-        $this->data = 0;
+
+        //$this->data = 0;
         $configContact = new \Core\ConfigView("sts/Views/contato/contato", $this->data);
         $configContact->include();
     }

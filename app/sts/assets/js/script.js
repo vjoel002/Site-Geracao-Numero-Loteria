@@ -5,13 +5,16 @@ const getElement = (...queries) => document.querySelector(...queries);
 const button = getElement('.open-modal-button');
 const container = getElement('.modal-container');
 const modal = getElement('.modal');
-const fechar_icon = getElement('.icon-close'); // ajouté
+const fechar_icon = getElement('.icon-close'); 
 const fechar_link = getElement('.link-close');
+
+
 
 const activeModalClass = 'modal-show';
 
 const openmodal = () => container.classList.add(activeModalClass);
 const closeModal = () => container.classList.remove(activeModalClass);
+
 
 button.addEventListener('click', openmodal);
 container.addEventListener('click', (event) => {
@@ -19,8 +22,43 @@ container.addEventListener('click', (event) => {
 closeModal();
 });
 
-fechar_icon.addEventListener('click', closeModal); // ajouté
+
+fechar_icon.addEventListener('click', closeModal); 
 fechar_link.addEventListener('click', closeModal);
+
+
+
+
+
+//const getElement = (...queries) => document.querySelector(...queries);
+
+const div = getElement('.open-modal-logo');
+const container_logo = getElement('.modal-logo');
+const modal_logo = getElement('.modal_logo'); 
+const fechar_link_logo = getElement('.link-close-logo');
+
+
+
+const activeModalClass_logo = 'modal-show';
+
+const openmodal_logo = () => container_logo.classList.add(activeModalClass_logo);
+const closeModal_logo = () => container_logo.classList.remove(activeModalClass_logo);
+
+
+div.addEventListener('click', openmodal_logo);
+container_logo.addEventListener('click', (event) => {
+    if (modal.contains(event.target)) return;
+closeModal_logo();
+});
+
+
+//fechar_icon.addEventListener('click', closeModal); 
+fechar_link_logo.addEventListener('click', closeModal_logo);
+
+
+
+
+
 
 ///////////////////////////////////////////// COPIAR DADOS BANCARIOS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
