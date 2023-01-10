@@ -27,7 +27,7 @@ fechar_icon.addEventListener('click', closeModal);
 fechar_link.addEventListener('click', closeModal);
 
 
-
+/////////////////////////////////////////// MODAL PARA LOGO \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 //const getElement = (...queries) => document.querySelector(...queries);
@@ -54,6 +54,34 @@ closeModal_logo();
 
 //fechar_icon.addEventListener('click', closeModal); 
 fechar_link_logo.addEventListener('click', closeModal_logo);
+
+
+/////////////////////////////////////////// MODAL PARA TUTORIAL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+const span = getElement('.open-modal-artigo');
+const container_artigo = getElement('.modal-artigo');
+const modal_artigo = getElement('.modal_artigo'); 
+const fechar_link_artigo = getElement('.link-close-artigo');
+
+
+
+const activeModalClass_artigo = 'modal-show';
+
+const openmodal_artigo = () => container_artigo.classList.add(activeModalClass_artigo);
+const closeModal_artigo = () => container_artigo.classList.remove(activeModalClass_artigo);
+
+
+span.addEventListener('click', openmodal_artigo);
+container_artigo.addEventListener('click', (event) => {
+    if (modal.contains(event.target)) return;
+closeModal_artigo();
+});
+
+
+//fechar_icon.addEventListener('click', closeModal); 
+fechar_link_artigo.addEventListener('click', closeModal_artigo);
 
 
 

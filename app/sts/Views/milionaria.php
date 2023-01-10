@@ -28,7 +28,7 @@
                <div class="result-research-form">
                            <!--======================= RESEACH =====================-->
                     <div class="title">
-                        Você está na <span style='color: blue'>Milionária</span>. Digite uma palavra
+                        Você escolheu Milionária. Digite uma palavra
                     </div>
                     <form action="" method="POST">
                         <div class="field textarea">

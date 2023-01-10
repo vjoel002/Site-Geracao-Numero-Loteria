@@ -33,7 +33,7 @@
                <div class="result-research-form">
                            <!--======================= RESEACH =====================-->
                     <div class="title">
-                        Você está na <span style='color: blue'>Mega-Sena</span>. Digite uma palavra
+                        Você escolheu Mega-Sena. Digite uma palavra
                     </div>
                     <form action="" method="POST">
                         <div class="field textarea">

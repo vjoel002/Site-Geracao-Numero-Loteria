@@ -494,7 +494,8 @@ footer .share a{
     cursor: pointer;
 }
 .modal-container,
-.modal-logo{
+.modal-logo,
+.modal-artigo{/*Tout nouveau*/
     /*background: #A9F5A9;*/
     width: 100%;
     height: 100vh;
@@ -507,7 +508,8 @@ footer .share a{
     pointer-events: none;
     transition: opacity 0.15s;
 }
-.open-modal-logo{
+.open-modal-logo,
+.open-modal-artigo{/*Tout nouveau*/
     cursor: pointer; /* Du nouveau*/
 }
 .modal{
@@ -527,7 +529,8 @@ footer .share a{
     cursor: pointer;
     margin-left: 95%;
 }
-.link-close-logo{ /* Du nouveau*/
+.link-close-logo,/* Du nouveau*/ 
+.link-close-artigo{ /*Tout nouveau*/
     background: red;
     border-radius: 5px;
     padding: 5px;

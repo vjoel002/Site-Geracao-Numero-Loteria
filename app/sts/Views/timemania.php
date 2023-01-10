@@ -28,7 +28,7 @@
                <div class="result-research-form">
                            <!--======================= RESEACH =====================-->
                     <div class="title">
-                        Você está na <span style='color: blue;'>Timemania</span>. Digite uma palavra
+                        Você escolheu Timemania. Digite uma palavra
                     </div>
                     <form action="" method="POST">
                         <div class="field textarea">

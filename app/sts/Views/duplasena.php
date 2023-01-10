@@ -26,7 +26,7 @@
                <div class="result-research-form">
                            <!--======================= RESEACH =====================-->
                     <div class="title">
-                        Você está na <span style='color: blue'>Dupla Sena</span>. Digite uma palavra
+                        Você escolheu Dupla Sena. Digite uma palavra
                     </div>
                     <form action="" method="POST">
                         <div class="field textarea">
