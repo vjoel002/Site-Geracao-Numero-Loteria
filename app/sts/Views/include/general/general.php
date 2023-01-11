@@ -10,18 +10,13 @@ if(!empty($this->data['bankData'][0])){
 <style>
     .right .numerology{
         background-image: url("<?php URL?>app/sts/assets/images/image23-rem.png");
-        background-repeat: no-repeat;
+        background-repeat: no-repeat;/*Tout nouveau*/
         background-size: cover;
     }
     .modal-logo{
         display: flex;
         justify-content: center;
     }
-    /*.modal-artigo{
-        display: flex;
-        justify-content: center;
-    }*/
-
 </style>
 
 <div class="modal-container">
@@ -29,9 +24,8 @@ if(!empty($this->data['bankData'][0])){
         <div class="icon-close"><i class="fa-solid fa-xmark"></i></div>
         <video controls loop width="100%" height="300px" src="<?php URL ?>app/sts/assets/images/VD_tutorial.mp4" type="video/mp4"></video>
         <div class="youtube">
-            <span class="open-modal-artigo">Ler artigo <i class="fa-solid fa-book"></i></span>
-            <span class="conector"> Ou</span>
-            <a class="link-close" href="https://youtu.be/IMHbjFVq3ZA" target="_blank">Assistir no YouTube <i class="fa-brands fa-youtube"></i></a>
+            <span class="open-modal-artigo">Leia <i class="fa-solid fa-book"></i></span>
+            <a class="link-close" href="https://youtu.be/IMHbjFVq3ZA" target="_blank">Assista <i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
 </div>
@@ -47,6 +41,7 @@ if(!empty($this->data['bankData'][0])){
     <div class="modal_artigo">
         <div class="link-close-artigo"> <i class="fa-solid fa-xmark"></i></div>
         <div class="artigo">
+            <div class="artigo-modal-titulo">Escolha um dispositivo</div>
             <div class="cell"><a href="tutorial-celular.php">CELULAR <i class="fa-solid fa-mobile"></i></a></div>
             <div class="computer"><a href="tutorial-computador.php">COMPUTADOR <i class="fa-sharp fa-solid fa-computer"></i></a></div>
         </div>

@@ -5,25 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" >
-    <title>Tutorial</title>
+    <title>O Ganhador - Tutorial para usuário de computador</title>
+    <link rel="shortcut icon" href="app/sts/assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="costum.css">
 </head>
 <style>
-    .header01 .link a{
-        padding: 15px;
-        background: red;
-    }
-    .header01 .link{
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+
 </style>
 <body>
     <section class="header01">
         <div class="intro">
             <div class="header-content">
                 <span>
-                    <div class="open-modal-logo"><img src="app/sts/assets/images/image-oganhador.png" alt=""></div>
+                    <div class="open-modal-logo"><img style="height: 70px; width: 60px;" src="app/sts/assets/images/image-oganhador.png" alt=""></div>
                 </span>
                 <span>
                     Gere números de jogo a partir de palavras
@@ -109,8 +103,8 @@
                         Na sequência, clique nas setinhas mostradas em vermelho até encontrar seu mês de nascimento, em seguida selecione seu dia de nascimento
                         e por fim, clique em <b>"DEFINIR"</b>.
                     </div>
-                    <div>
-                        <img style="width: 433px;" src="app/sts/assets/images/img6.png" alt="">
+                    <div class="passo7">
+                        <img src="app/sts/assets/images/img6.png" alt="">
                     </div>
                 </div>
 
@@ -161,3 +155,7 @@
     </div>
 </body>
 </html>
+
+<style>
+
+</style>

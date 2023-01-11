@@ -9,7 +9,16 @@
 /*//////////////////////////////////////////// geral /////////////////////////////////////////////*/
 body{
     background-image: url("app/sts/assets/images/image-oganhador.PNG");
+    background-attachment: fixed;
     color: rgb(159, 168, 152);
+}
+.header-content img{
+    margin-right: -35px;
+}
+.header-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .header01 .header-content{
     color: #694F10;
@@ -91,4 +100,21 @@ body{
     font-size: 25px;
     color: green;
     padding-bottom: 10px;
+}
+.header01 .link a{
+    padding: 15px;
+    background: grey;
+    color: white;
+}
+.header01 .link{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.passo7{
+    width: 433px;
+}
+@media (max-width: 947px){
+.passo7{
+    width: 335px;
+}
 }

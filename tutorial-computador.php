@@ -6,24 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" >
     <link rel="stylesheet" href="costum.css">
-    <title>Tutorial</title>
+    <link rel="shortcut icon" href="app/sts/assets/images/favicon.ico" type="image/x-icon">
+    <title>O Ganhador - Tutorial para usuário de celular</title>
 </head>
-<style>
-    .header01 .link a{
-        padding: 15px;
-        background: red;
-    }
-    .header01 .link{
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-</style>
 <body>
     <section class="header01">
         <div class="intro">
             <div class="header-content">
                 <span>
-                    <div class="open-modal-logo"><img src="app/sts/assets/images/image-oganhador.png" alt=""></div>
+                    <div class="open-modal-logo"><img style="height: 70px; width: 60px;" src="app/sts/assets/images/image-oganhador.png" alt=""></div>
                 </span>
                 <span>
                     Gere números de jogo a partir de palavras
@@ -35,7 +26,7 @@
                 <a href="tutorial-celular.php">celular <i class="fa-solid fa-arrow-right"></i></a>
             </div>
 
-            <h2>Tutorial para quem usa celular</h2>
+            <h2>Tutorial para quem usa computador</h2>
 
                 <h3>Passo 1</h3>
                 <div class="tutorial">

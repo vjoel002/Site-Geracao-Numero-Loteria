@@ -29,9 +29,6 @@ fechar_link.addEventListener('click', closeModal);
 
 /////////////////////////////////////////// MODAL PARA LOGO \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-
-//const getElement = (...queries) => document.querySelector(...queries);
-
 const div = getElement('.open-modal-logo');
 const container_logo = getElement('.modal-logo');
 const modal_logo = getElement('.modal_logo'); 
@@ -51,8 +48,6 @@ container_logo.addEventListener('click', (event) => {
 closeModal_logo();
 });
 
-
-//fechar_icon.addEventListener('click', closeModal); 
 fechar_link_logo.addEventListener('click', closeModal_logo);
 
 
@@ -79,8 +74,6 @@ container_artigo.addEventListener('click', (event) => {
 closeModal_artigo();
 });
 
-
-//fechar_icon.addEventListener('click', closeModal); 
 fechar_link_artigo.addEventListener('click', closeModal_artigo);
 
 
