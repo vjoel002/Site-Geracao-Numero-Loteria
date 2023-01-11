@@ -4,98 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" >
+    <link rel="stylesheet" href="costum.css">
     <title>Tutorial</title>
 </head>
-
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-}
-/*//////////////////////////////////////////// geral /////////////////////////////////////////////*/
-body{
-    background-image: url("app/sts/assets/images/image-oganhador.PNG");
-    color: rgb(159, 168, 152);
-}
-.header01 .header-content{
-    color: #694F10;
-    text-align: center;
-    padding: 10px; 
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 0 10px 0 #00000070;  
-}
-.header01 .header-content span{
-    padding-left: 50px; 
-    font-size: 20px;
-}
-.header01 .header-content span img{
-    width: 40px; 
-    height: 35px;
-}
-.intro{
-    max-width: 1000px;
-    padding: 0 10px;
-    margin: auto;
-    height: auto;
-    background: #fff;
-}
-.max-width{
-    padding-bottom: 30px;
-}
-.start{
-    color: #fff;
-    text-align: justify;
-    padding: 15px 10px 10px;
-    font-size: 25px;
-}
-.principal .max-width .content{
-    display: flex;
-}
-
-.foot{
-    background: #090b13;
-    padding: 15px;
-    text-align: center;
-}
-.foot span a{
-    color: #0063e5;
-}
-
-.tutorial img{
-    width: 100%;
-}
-.tutorial{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.explication{
-    width: 600px;
-    text-align: justify;
-    padding: 10px;
-}
-.intro h3{
-    background: red;
-    width: auto;
-    padding: 3px 8px;
-    margin-top: 15px;
-    text-align: center;
-}
-.intro h3,
-.explication{
-    color: #090b13;
-}
-.intro h2{
-    color: #090b13;
-    text-align: center;
-}
+    .header01 .link a{
+        padding: 15px;
+        background: red;
+    }
+    .header01 .link{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 </style>
 <body>
     <section class="header01">
@@ -108,6 +29,11 @@ body{
                     Gere números de jogo a partir de palavras
                 </span>
             </div><br>
+
+            <div class="link">
+                <a href="<?php echo "http://localhost/descobertas"?>"><i class="fa-solid fa-arrow-left"></i> Home</a>
+                <a href="tutorial-celular.php">celular <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
 
             <h2>Tutorial para quem usa celular</h2>
 
@@ -158,9 +84,13 @@ body{
                         <img src="app/sts/assets/images/img05.PNG" alt="">
                     </div>
                     <div class="explication">
-                        Pode usar uma quantidade de palavras correspondente ao quantidade de números desejada.
+                        Agora, você tem seus números em mão e já sabe o melhor dia para apostar e ter a maior chance de ganhar.
                     </div>
                 </div><br><br>
+
+                <div class="bonneChance">
+                    Boa Sorte!
+                </div>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         </div>

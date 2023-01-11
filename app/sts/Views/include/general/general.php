@@ -27,10 +27,10 @@ if(!empty($this->data['bankData'][0])){
 <div class="modal-container">
     <div class="modal">
         <div class="icon-close"><i class="fa-solid fa-xmark"></i></div>
-            <video controls loop width="100%" height="300px" src="<?php URL ?>app/sts/assets/images/VD_tutorial.mp4" type="video/mp4"></video>
-            <div class="youtube">
-                <span class="open-modal-artigo">Ler artigo <i class="fa-solid fa-book"></i></span>
-                <a href="tutorialComputador.html">Ler</a> ou
+        <video controls loop width="100%" height="300px" src="<?php URL ?>app/sts/assets/images/VD_tutorial.mp4" type="video/mp4"></video>
+        <div class="youtube">
+            <span class="open-modal-artigo">Ler artigo <i class="fa-solid fa-book"></i></span>
+            <span class="conector"> Ou</span>
             <a class="link-close" href="https://youtu.be/IMHbjFVq3ZA" target="_blank">Assistir no YouTube <i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
@@ -45,20 +45,10 @@ if(!empty($this->data['bankData'][0])){
 
 <div class="modal-artigo">
     <div class="modal_artigo">
-        <div class="link-close-artigo"> <i class="fa-solid fa-xmark"></i> Fechar</div>
+        <div class="link-close-artigo"> <i class="fa-solid fa-xmark"></i></div>
         <div class="artigo">
-            <div><a href="tutorialComputador.html">Tutorial para usuário de celular</a></div>
-            <div><a href="tutorialComputador.html">Tutorial para usuário de Computador</a></div>
+            <div class="cell"><a href="tutorial-celular.php">CELULAR <i class="fa-solid fa-mobile"></i></a></div>
+            <div class="computer"><a href="tutorial-computador.php">COMPUTADOR <i class="fa-sharp fa-solid fa-computer"></i></a></div>
         </div>
     </div>
 </div>
-
-
-<style>
-    .artigo{
-        width: auto;
-        height: auto;
-        background: white;
-        padding: 15px;
-    }
-</style>
