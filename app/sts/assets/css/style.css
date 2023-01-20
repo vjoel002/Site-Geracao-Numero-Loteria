@@ -159,6 +159,44 @@ footer{
     color: blue;
     background: none;
 }
+/*::::::::::::::::::::::::::::::::::::::: TESTE AFILIADO :::::::::::::::::::::::::::::::::::::::::::*/
+.afilliate{
+    background: #fff;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.afilliate h2,
+.afilliate p,
+.afilliate a{
+    text-align: center;
+    color: #090b13;
+}
+.afilliate .liens-afiliations{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.afilliate a{
+    /*background: #90F592;*/
+    /*color: #090b13;*/
+    background: #0063e5;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+.afilliate a:hover{
+    /*background: #0063e5;*/
+    background: #90F592;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+}
+
 /*///////////////////////////////// Dia da sua sorte \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .principal .left .research-result{
     box-shadow: 0 0 10px 0 #00000070;

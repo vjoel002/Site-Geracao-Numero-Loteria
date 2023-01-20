@@ -48,6 +48,21 @@
                             {echo $_SESSION['result']; unset($_SESSION['result']);} ?>
                 </div>
 
+                <!--::::::::::::::::::::::::::::::::::::::: TESTE AFILIADO :::::::::::::::::::::::::::::::::::::::::::-->
+                <div class="afilliate">
+                    <h2>Ajude-nos!</h2>
+                    <p>Use nossos links para fazer suas compras na</p>
+                    <div class="liens-afiliations">
+                        <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank">Magalu</a>
+                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank">Amazon</i></a>
+                        <a href="">Shopee</a>
+                    </div>
+                    <div class="liens-afiliations">
+                        <a href="https://click.linksynergy.com/deeplink?id=TBmEuFxr6MI&mid=43986&murl=http%3A%2F%2Fwww.oganhador.com.br%2F" target="_blank">Shoestock</a>
+                    </div>
+                </div>           
+                <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
                <!--+++++++++++++++++++++++++++++ RESEACH FORM LOCKY DAY +++++++++++++++++++++++++++++++-->
                <div class="lockday">
                         <div class="dayTitle">

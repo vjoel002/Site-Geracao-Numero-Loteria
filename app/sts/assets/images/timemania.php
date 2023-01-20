@@ -1,5 +1,5 @@
 <?php
-//echo "Test da página milionaria";
+//echo "Test da página timemania";
 ?>
 
 <section class="principal">
@@ -11,13 +11,13 @@
                         <div class="header">
                             <ul class="menu" id="menu-site">
                                 <?php echo "<a href='".URL."mega-sena'>MEGA-SENA</a>"; 
-                                      echo "<a href='".URL."milionaria' class='active'>MILIONÁRIA</a>";
+                                      echo "<a href='".URL."milionaria'>MILION&AacuteRIA</a>";
                                       echo "<a href='".URL."dia-de-sorte'>DIA DE SORTE</a>";?>
                             </ul>
                         </div><br>
                         <div class="header">
                             <ul class="menu" id="menu-site">
-                                <?php echo "<a href='".URL."timemania'>TIMEMANIA</a>";
+                                <?php echo "<a href='".URL."timemania' class='active'>TIMEMANIA</a>";
                                       echo "<a href='".URL."dupla-sena'>DUPLA SENA</a>";
                                       echo "<a href='".URL."quina'>QUINA</a>";?>
                             </ul>
@@ -28,11 +28,13 @@
                <div class="result-research-form">
                            <!--======================= RESEACH =====================-->
                     <div class="title">
-                        Você escolheu Milionária. Digite uma palavra
+                        <?php if(!empty($this->data['database'][17])){extract($this->data['database'][17]);
+                        echo $content;} ?>
                     </div>
                     <form action="" method="POST">
                         <div class="field textarea">
-                            <input type="text" name="word" id="word" placeholder="Digite uma palavra ou um número" maxlength="17">
+                            <input type="text" name="word" id="word" placeholder="<?php if(!empty($this->data['database'][12])){extract($this->data['database'][12]);
+                                echo $content;} ?>" maxlength="17">
                         </div>
                         <div class="buttom-area">
                             <button type="submit" name="smgSend" value=" ">  Calcular</button>
@@ -48,21 +50,8 @@
                             {echo $_SESSION['result']; unset($_SESSION['result']);} ?>
                 </div>
 
-                <!--::::::::::::::::::::::::::::::::::::::: TESTE AFILIADO :::::::::::::::::::::::::::::::::::::::::::-->
-                <div class="afilliate">
-                            <h2>Ajude-nos!</h2>
-                            <p>Use nossos links para fazer suas compras na</p>
-                            <div class="liens-afiliations">
-                                <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank">Magazine Luiza</a>
-                                <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank">Amazon</i></a>
-                                <a href="">Shopee</a>
-                            </div>
-                </div>           
-                <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
-
                <!--+++++++++++++++++++++++++++++ RESEACH FORM LOCKY DAY +++++++++++++++++++++++++++++++-->
-
-                    <div class="lockday">
+               <div class="lockday">
                         <div class="dayTitle">
                             <b><?php if(!empty($this->data['database'][3])){extract($this->data['database'][3]);
                             echo $content;} ?></b>
@@ -74,16 +63,15 @@
                 </div>
 
 <!--///////////////////////////////////////////////// RIGHT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-
+                
                 <div class="column right">
-
-                <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
+                    <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
                     <div class="numerology">
                         <h3 style='padding-top: 20px'>Saiba sobre a numerologia</h3>
                         <p>
                         <?php if(!empty($this->data['database'][4])){extract($this->data['database'][4]);
-                            echo $content;} ?>  
-                            <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saíba mais!</a>
+                            echo $content;} ?> 
+                            <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saiba mais!</a>
                         </p>
                         <table class="numerologyTable">
                             <tr class="tableHead">
@@ -136,7 +124,8 @@
                         </div>
                     </div>
                     <div class="contact">
-                        <p>Se você tem dúvida ou sugestões, por favor, entre em contato com a gente</p>
+                        <p><?php if(!empty($this->data['database'][11])){extract($this->data['database'][11]);
+                            echo $content;} ?></p>
                         <div class="contactBtn"><?php echo "<a href='".URL."contato' class='fa-solid fa-square-caret-right'>
                             Entre em contato agora</a>" ?></div>
                     </div>

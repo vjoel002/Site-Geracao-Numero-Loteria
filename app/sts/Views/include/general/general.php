@@ -22,7 +22,7 @@ if(!empty($this->data['bankData'][0])){
 <div class="modal-container">
     <div class="modal">
         <div class="icon-close"><i class="fa-solid fa-xmark"></i></div>
-        <video controls loop width="100%" height="300px" src="<?php URL ?>app/sts/assets/images/VD_tutorial.mp4" type="video/mp4"></video>
+        <video controls  width="100%" height="300px" src="<?php URL ?>app/sts/assets/images/VD_tutorial.mp4" type="video/mp4"></video>
         <div class="youtube">
             <span class="open-modal-artigo">Leia <i class="fa-solid fa-book"></i></span>
             <a class="link-close" href="https://youtu.be/IMHbjFVq3ZA" target="_blank">Assista <i class="fa-brands fa-youtube"></i></a>
