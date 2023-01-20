@@ -1,7 +1,3 @@
-<?php
-//echo "Test da página timemania";
-?>
-
 <section class="principal">
         <div class="max-width">
             <div class="content">
@@ -52,14 +48,27 @@
                 <div class="afilliate">
                     <h2>Ajude-nos!</h2>
                     <p>Use nossos links para fazer suas compras na</p>
-                    <div class="liens-afiliations">
-                        <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank">Magalu</a>
-                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank">Amazon</i></a>
-                        <a href="">Shopee</a>
+                    <div class="liens-afiliations autres">
+                        <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank"><img style="width: 80px; height: 30px;" src="<?php echo URL ?>app/sts/assets/images/magalu-logo-3.png" alt=""></a>
+                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank"><img style="width: 80px; height: 30px;" src="<?php echo URL ?>app/sts/assets/images/amazon-logo.png" alt=""></i></a>
+                        <a href="https://click.linksynergy.com/deeplink?id=TBmEuFxr6MI&mid=43986&murl=http%3A%2F%2Fwww.oganhador.com.br%2F" target="_blank"><b>SHOESTOCK</b></a>
                     </div>
-                    <div class="liens-afiliations">
-                        <a href="https://click.linksynergy.com/deeplink?id=TBmEuFxr6MI&mid=43986&murl=http%3A%2F%2Fwww.oganhador.com.br%2F" target="_blank">Shoestock</a>
-                    </div>
+
+                    <fieldset>
+                        <legend><img style="width: 80px; height: 30px;" src="<?php echo URL ?>app/sts/assets/images/shopee-logo-2.png" alt=""></legend>
+                        <div class="liens-afiliations shopee">
+                            <a href="https://shope.ee/99qKjmAgYC" target="_blank">Eletroportáteis</a>
+                            <a href="https://shope.ee/20NACiZ0Ft" target="_blank">Celulares e Dispositivos</i></a>
+                            <a href="https://shope.ee/7KOgYnKpEX" target="_blank">Áudio</a>
+                        </div>
+                        <div class="liens-afiliations shopee">
+                            <a href="https://shope.ee/3pooOuXtD6" target="_blank">Sapatos Masculinos</a>
+                            <a href="https://shope.ee/2L00cmayau" target="_blank">Sapatos Femininos</a>
+                            <a href="https://shope.ee/2fcr0tvEem" target="_blank">Relógios</a>
+                        </div>
+                        <div class="liens-afiliations shopee">
+                        </div>
+                    </fieldset>
                 </div>           
                 <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
 
@@ -78,7 +87,10 @@
 <!--///////////////////////////////////////////////// RIGHT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
                 
                 <div class="column right">
-                    <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
+                    <div>
+
+                    </div>
+                <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
                     <div class="numerology">
                         <h3 style='padding-top: 20px'>Saiba sobre a numerologia</h3>
                         <p>
