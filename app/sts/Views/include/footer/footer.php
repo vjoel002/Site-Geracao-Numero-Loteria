@@ -103,7 +103,7 @@
     </footer>
     <div class="foot">
             <div class="adm">&copy O Ganhador 2023</div>
-            <span>Created By <a href="">Eclair Tec</a></span>
+            <span>Created and administered by <a href="">Eclair Tec</a></span>
             <div class="adm"><?php echo "<a href='".URL."loguin'>Administration</a>" ?></div>
     </div>
     <script src="<?php echo URL; ?>app/sts/assets/js/script.js"></script>

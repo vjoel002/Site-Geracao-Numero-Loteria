@@ -48,9 +48,17 @@
                 <div class="afilliate">
                     <h2>Ajude-nos!</h2>
                     <p>Use nossos links para fazer suas compras na</p>
-                    <div class="liens-afiliations autres">
-                        <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank"><img style="width: 80px; height: 30px;" src="<?php echo URL ?>app/sts/assets/images/magalu-logo-3.png" alt=""></a>
-                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank"><img style="width: 80px; height: 30px;" src="<?php echo URL ?>app/sts/assets/images/amazon-logo.png" alt=""></i></a>
+                    <div class="liens-afiliations-ordinateur autres">
+                        <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/magalu-logo-3.png" alt=""></a>
+                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/amazon-logo.png" alt=""></i></a>
+                        <a href="https://click.linksynergy.com/deeplink?id=TBmEuFxr6MI&mid=43986&murl=http%3A%2F%2Fwww.oganhador.com.br%2F" target="_blank"><b>SHOESTOCK</b></a>
+                    </div>
+
+                    <div class="liens-afiliations-mobile autres">
+                        <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/magalu-logo-3.png" alt=""></a>
+                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/amazon-logo.png" alt=""></i></a>
+                    </div>
+                    <div class="liens-afiliations-mobile autres">
                         <a href="https://click.linksynergy.com/deeplink?id=TBmEuFxr6MI&mid=43986&murl=http%3A%2F%2Fwww.oganhador.com.br%2F" target="_blank"><b>SHOESTOCK</b></a>
                     </div>
 
