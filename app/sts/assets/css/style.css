@@ -87,7 +87,8 @@ footer{
 .principal .content .column{
     width: calc(50% - 5px);
 }
-.menu-general{
+.menu-general,
+.menu-general-meudia{
     margin-top: 15px;
 }
 .principal .left .header .menu{
@@ -280,6 +281,10 @@ legend{
     padding: 0 15px;
     transition: all 0.3s ease;
 }
+.principal .left .menu-general-meudia{
+    margin-bottom: 25px;
+}
+
 /*----------------------- Dia da sua sorte botão --------------------------*/
 .principal .left .lockday{
     height: auto;
@@ -314,6 +319,7 @@ legend{
 }
 .principal .right .explications p{/*Nouveau*/
     padding: 10px 0 5px 0;
+    /*font-size: 2px;*/
 }
 .principal .right{
     width: 50%;
@@ -328,7 +334,7 @@ legend{
     color: #090b13;
     border: 2px solid #090b13;
     text-align: center; 
-    font-family: Apple Chancery, cursive; 
+    font-family: Apple Chancery, cursive;
 }
 .principal .right .numerologyTable .tableHead{
     font-weight: bold;
@@ -594,8 +600,7 @@ footer .share a{
 }
 .modal-container,
 .modal-logo,
-.modal-artigo{/*Tout nouveau*/
-    /*background: #A9F5A9;*/
+.modal-artigo{
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -724,9 +729,12 @@ footer .share a{
         height: 45px;
         font-size: 14px;
     }
+    .afilliate{
+        margin-top: -20px;
+    }
     /*---------------------------------------- RIGHT ---------------------------------------------*/
 
-    .principal .right .numerologyTable{/*nouveau*/
+    .principal .right .numerologyTable{
         padding-top: 30px; 
     }
     /*++++++++++++++++++++++++++++++++++++++++++++++ PALAVRAS-CHAVES +++++++++++++++++++++++++++++++++++*/
@@ -760,13 +768,16 @@ footer .share a{
     .principal .left .result{
         margin-bottom: 15px;
     }
+    .principal .left .menu-general-meudia{
+        margin-bottom: 0;
+    }
 
     /*//////////////////////////////////////// MODAL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
     .modal{
         width: 90%;
     } 
-    .artigo-modal-titulo{ /*Tout nouveau*/
+    .artigo-modal-titulo{ 
         font-size: 20px;
     }
 

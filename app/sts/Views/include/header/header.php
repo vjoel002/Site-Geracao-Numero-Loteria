@@ -15,7 +15,7 @@
         <div class="intro">
             <div class="header-content">
                 <span>
-                    <div class="open-modal-logo"><img src="<?php echo URL ?>app/sts/assets/images/image-oganhador.png" alt=""></div>
+                    <div class="open-modal-logo"><img src="<?php echo URL ?>app/sts/assets/images/image-oganhador.png" alt="oganhador"></div>
                 </span>
                 <span>
                     <?php if(!empty($this->data['database'][0])){extract($this->data['database'][0]); 

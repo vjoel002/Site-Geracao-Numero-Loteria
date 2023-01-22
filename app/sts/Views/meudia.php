@@ -1,7 +1,3 @@
-<?php
-//echo "Test da página meudia";
-?>
-
 <section class="principal">
         <div class="max-width">
             <div class="content">
@@ -18,7 +14,7 @@
                                     <input type="time" name="hour" required>
                                     <div class="buttom-area-lookday">
                                         <button type="submit" name="smgSend" value=" ">Calcular</button>
-</div>
+                                    </div>
                                 </div>
                             </form>
                             <div class="result">
@@ -38,7 +34,7 @@
                             </div>
                         </div>
                         <div style='color:blue; text-align: center; font-size: 30px; padding-top: 15px'>Ir para</div>
-                        <div class="menu-general">
+                        <div class="menu-general-meudia">
                             <div class="header">
                                 <ul class="menu" id="menu-site">
                                     <?php echo "<a href='".URL."mega-sena'>MEGA-SENA</a>"; 
@@ -55,95 +51,5 @@
                                     ?>
                                 </ul>
                             </div><br>
-                    </div> 
+                        </div> 
                     
-                    <!--::::::::::::::::::::::::::::::::::::::: TESTE AFILIADO :::::::::::::::::::::::::::::::::::::::::::-->
-                    <div class="afilliate">
-                        <h2>Ajude-nos!</h2>
-                        <p>Use nossos links para fazer suas compras na</p>
-                        <div class="liens-afiliations">
-                            <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank">Magazine Luiza</a>
-                            <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank">Amazon</i></a>
-                            <a href="">Shopee</a>
-                        </div>
-                    </div>           
-                    <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
-
-                </div>
-
-<!--///////////////////////////////////////////////// RIGHT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-                
-                <div class="column right">
-
-                <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
-
-                    <div class="numerology">
-                        <h3 style='padding-top: 20px'>Saiba sobre a numerologia</h3>
-                        <p><?php if(!empty($this->data['database'][4])){extract($this->data['database'][4]);
-                            echo $content;} ?> 
-                             
-                            <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saíba mais!</a>  
-                        </p>
-                        <table class="numerologyTable">
-                            <tr class="tableHead">
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                                <td>8</td>
-                                <td>9</td>
-                            </tr>
-                            <tr>
-                                <td>a</td>
-                                <td>b</td>
-                                <td>c</td>
-                                <td>d</td>
-                                <td>e</td>
-                                <td>f</td>
-                                <td>g</td>
-                                <td>h</td>
-                                <td>i</td>
-                            </tr>
-                            <tr>
-                                <td>j</td>
-                                <td>k</td>
-                                <td>l</td>
-                                <td>m</td>
-                                <td>n</td>
-                                <td>o</td>
-                                <td>p</td>
-                                <td>q</td>
-                                <td>r</td>
-                            </tr>
-                            <tr>
-                                <td>s</td>
-                                <td>t</td>
-                                <td>u</td>
-                                <td>v</td>
-                                <td>w</td>
-                                <td>x</td>
-                                <td>y</td>
-                                <td>z</td>
-                            </tr>
-                        </table>
-                        <div class="exemple">
-                           <b style='font-family: Apple Chancery, cursive;'>Por exemplo:</b> Campinas = 31479511;
-                            Azul = 1833; Computador = 3647321469
-                        </div>
-                    </div>
-
-                <!--+++++++++++++++++++++++++++++ CONTACT LINK +++++++++++++++++++++++++++++++-->
-
-                    <div class="contact">
-                        <p>Se você tem dúvida ou sugestões, por favor, entre em contato com a gente</p>
-                        <div class="contactBtn"><?php echo "<a href='".URL."contato' class='fa-solid fa-square-caret-right'>
-                            Entre em contato agora</a>" ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
