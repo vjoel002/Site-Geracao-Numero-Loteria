@@ -203,13 +203,14 @@ footer{
     display: none;
 }
 .afilliate a{
+    background: antiquewhite;
     color: #090b13;
     border-radius: 3px;
     padding: 5px;
     margin: 5px;
 }
 .afilliate .shopee a{
-    background: #f06d56;
+    background: antiquewhite;
 }
 .autres{
     font-size: 20px;
@@ -295,6 +296,25 @@ legend{
     margin-bottom: 15px;
 }
 /*///////////////////////////////////// Right box /////////////////////////////////////////*/
+.principal .right .explications{ /*Nouveau*/
+    background: #fff;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: #090b13;
+    border-radius: 5px;
+}
+.principal .right .explications h1,
+.principal .right .explications h2{/*Nouveau*/
+    text-align: center;
+    background: #EFEEEE;
+}
+.principal .right .explications h2{/*Nouveau*/
+    font-size: 20px;
+}
+.principal .right .explications p{/*Nouveau*/
+    padding: 10px 0 5px 0;
+}
 .principal .right{
     width: 50%;
     height: auto;
@@ -323,8 +343,7 @@ legend{
     margin-top: 5px;
     color: #090b13;
     text-align: justify;
-    padding-left: 25px;
-    padding-right: 30px;
+    padding: 0 25px 15px 25px; /*Nouveau*/
     font-size: 15px;
     font-family: Apple Chancery, cursive;
 }
@@ -336,9 +355,7 @@ legend{
 .principal .right .exemple{
     color: #090b13;
     margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 0 10px 10px 10px;/*Nouveau*/
     text-align: center;
     font-family: Apple Chancery, cursive;
 }
@@ -359,19 +376,10 @@ legend{
     background-color: #fff;
     padding: 10px;
     cursor: pointer;
-    /*margin-top: 5px;*/
     margin-bottom: 15px;
 }
 /*//////////////////////////////////////// Footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-/*.serv-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 40px;
-}*/
 .serv-content .card{
-    /*width: calc(50% - 20px);*/
     background: white;
     text-align: center;
     border-radius: 6px;
@@ -595,8 +603,8 @@ footer .share a{
     transition: opacity 0.15s;
 }
 .open-modal-logo,
-.open-modal-artigo{/*Tout nouveau*/
-    cursor: pointer; /* Du nouveau*/
+.open-modal-artigo{
+    cursor: pointer; 
 }
 .modal{
     background: #090b13;
@@ -604,33 +612,31 @@ footer .share a{
     height: auto;
     padding: 15px;
     border-radius: 5px;
-    /*box-shadow: 0 0 10px 0 #00000070;*/
 }
-.modal_artigo{/*Tout nouveau*/
+.modal_artigo{
     background: #fff;
     border-radius: 5px;
 }
-.artigo{/*Tout nouveau*/
+.artigo{
     width: auto;
     height: auto;
     border-radius: 5px;
     background: white;
     padding: 15px;
 }
-.modal-artigo .cell,/*Tout nouveau*/
-.modal-artigo .computer{/*Tout nouveau*/
+.modal-artigo .cell,
+.modal-artigo .computer{
     text-align: center;
     padding: 15px;
-    /*background: #A9F5A9;*/
 }
-.modal-artigo .cell a,/*Tout nouveau*/
-.modal-artigo .computer a{/*Tout nouveau*/
+.modal-artigo .cell a,
+.modal-artigo .computer a{
     color: #fff;
     background: red;
     padding: 5px;
     border-radius: 5px;
 }
-.link-close-artigo{/*Tout nouveau*/
+.link-close-artigo{
     color: red;
     font-size: 25px;
     text-align: center;
@@ -713,10 +719,13 @@ footer .share a{
         height: 45px;
         font-size: 14px;
     }
-    /*::::::::::::::::::::::::::::::::::::::::::::::: AFILIADO :::::::::::::::::::::::::::::::::::*/
-    .afilliate a{
-        background: #90F592;
+    /*---------------------------------------- RIGHT ---------------------------------------------*/
+
+    .principal .right .numerologyTable{/*nouveau*/
+        padding-top: 30px; 
     }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::: AFILIADO :::::::::::::::::::::::::::::::::::*/
     .afilliate .liens-afiliations-ordinateur{
         display: none;
     }

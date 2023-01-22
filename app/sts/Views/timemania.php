@@ -47,7 +47,7 @@
                 <!--::::::::::::::::::::::::::::::::::::::: TESTE AFILIADO :::::::::::::::::::::::::::::::::::::::::::-->
                 <div class="afilliate">
                     <h2>Ajude-nos!</h2>
-                    <p>Use nossos links para fazer suas compras na</p>
+                    <p>Faça uma compra com uma de nossas paceiras através de um dos links abaixo</p>
                     <div class="liens-afiliations-ordinateur autres">
                         <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/magalu-logo-3.png" alt=""></a>
                         <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/amazon-logo.png" alt=""></i></a>
@@ -95,16 +95,12 @@
 <!--///////////////////////////////////////////////// RIGHT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
                 
                 <div class="column right">
-                    <div>
-
-                    </div>
-                <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
-                    <div class="numerology">
-                        <h3 style='padding-top: 20px'>Saiba sobre a numerologia</h3>
-                        <p>
-                        <?php if(!empty($this->data['database'][4])){extract($this->data['database'][4]);
-                            echo $content;} ?> 
-                            <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saíba mais!</a>
+                    <div class="explications">
+                        <h1>Métodos</h1>
+                        <p>A transição da palavra para o número de loteria é feita em duas etapas: conversão e cálculo.</p>
+                        <h2>Conversão</h2>
+                        <p>Nesta etapa a palavra é convertida em um número através da númerologia
+                            que atribui um número  a cada letra do alfabeto conforme a tabela de numerologia abaixo.
                         </p>
                         <table class="numerologyTable">
                             <tr class="tableHead">
@@ -155,6 +151,21 @@
                            <b style='font-family: Apple Chancery, cursive;'>Por exemplo:</b> Campinas = 31479511;
                             Azul = 1833; Computador = 3647321469
                         </div>
+                        <h2>Cálculo</h2>
+                        <p>Nesta etapa o número resultante da conversão da palavra é processado através de cálculos
+                            matemáticos, o que resulta em um número correspondente a cada jogo. Por exemplo:
+                            Campinas = 32 para a Mega-Sena e 72 para a Quina.
+                        </p>
+                    </div>
+                <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
+                    <div class="numerology">
+                        <h3 style='padding-top: 20px'>Saiba sobre a numerologia</h3>
+                        <p>
+                        <?php if(!empty($this->data['database'][4])){extract($this->data['database'][4]);
+                            echo $content;} ?> 
+                            <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saíba mais!</a>
+                        </p>
+
                     </div>
                     <div class="contact">
                         <p>Se você tem dúvida ou sugestões, por favor, entre em contato com a gente</p>
