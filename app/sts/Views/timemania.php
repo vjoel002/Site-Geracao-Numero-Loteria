@@ -50,8 +50,11 @@
                     <p>Faça uma compra com uma de nossas paceiras através de um dos links abaixo</p>
                     <div class="liens-afiliations-ordinateur autres">
                         <a href="https://www.magazinevoce.com.br/magazineeclairstore/" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/magalu-logo-3.png" alt=""></a>
-                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/amazon-logo.png" alt=""></i></a>
+                        <a href="https://www.amazon.com.br?&linkCode=ll2&tag=&linkId=1b7dc1681cef6f63b0354c6104033c63&language=pt_BR&ref_=as_li_ss_tl" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/amazon-logo.png" alt=""></a>
                         <a href="https://click.linksynergy.com/deeplink?id=TBmEuFxr6MI&mid=43986&murl=http%3A%2F%2Fwww.oganhador.com.br%2F" target="_blank"><b>SHOESTOCK</b></a>
+                    </div>
+                    <div class="liens-afiliations-ordinateur autres">
+                        <a href="https://app.monetizze.com.br/r/AVU22048495" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/monetizze-logo.png" alt=""></a>
                     </div>
 
                     <div class="liens-afiliations-mobile autres">
@@ -60,6 +63,9 @@
                     </div>
                     <div class="liens-afiliations-mobile autres">
                         <a href="https://click.linksynergy.com/deeplink?id=TBmEuFxr6MI&mid=43986&murl=http%3A%2F%2Fwww.oganhador.com.br%2F" target="_blank"><b>SHOESTOCK</b></a>
+                    </div>
+                    <div class="liens-afiliations-mobile autres">
+                        <a href="https://app.monetizze.com.br/r/AVU22048495" target="_blank"><img src="<?php echo URL ?>app/sts/assets/images/monetizze-logo.png" alt=""></a>
                     </div>
 
                     <fieldset>
@@ -171,6 +177,18 @@
                         <p>Se você tem dúvida ou sugestões, por favor, entre em contato com a gente</p>
                         <div class="contactBtn"><?php echo "<a href='".URL."contato' class='fa-solid fa-square-caret-right'>
                             Entre em contato agora</a>" ?></div>
+                    </div>
+                    <div class="palavras-chave">
+                            <h1>Palavras-chaves: </h1>
+                            <h2>Numerologia</h2>
+                            <h2>Gerador</h2>
+                            <h2>Cálculo</h2>
+                            <h2>Conta</h2>
+                            <h2>Loteria</h2>
+                            <h2>Número</h2>
+                            <h2>Palavra</h2>
+                            <h2>Ganhar</h2>
+                            <h2>Rico</h2>
                     </div>
                 </div>
             </div>

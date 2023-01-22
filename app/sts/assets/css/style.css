@@ -359,6 +359,11 @@ legend{
     text-align: center;
     font-family: Apple Chancery, cursive;
 }
+/*++++++++++++++++++++++++++++++++++++++++++++++ PALAVRAS-CHAVES +++++++++++++++++++++++++++++++++++*/
+.palavras-chave h1,
+.palavras-chave h2{
+    font-size: 5px;
+}
 /*----------------------------------------- Contact buttom ----------------------------------*/
 .principal .right .contact{
     height: auto;
@@ -723,6 +728,11 @@ footer .share a{
 
     .principal .right .numerologyTable{/*nouveau*/
         padding-top: 30px; 
+    }
+    /*++++++++++++++++++++++++++++++++++++++++++++++ PALAVRAS-CHAVES +++++++++++++++++++++++++++++++++++*/
+    .palavras-chave h1,
+    .palavras-chave h2{
+        display: none;
     }
 
     /*::::::::::::::::::::::::::::::::::::::::::::::: AFILIADO :::::::::::::::::::::::::::::::::::*/
