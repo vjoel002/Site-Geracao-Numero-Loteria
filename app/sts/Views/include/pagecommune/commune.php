@@ -116,6 +116,10 @@
                             matemáticos, o que resulta em um número correspondente a cada jogo. Por exemplo:
                             Campinas = 32 para a Mega-Sena e 72 para a Quina.
                         </p>
+                        <div class=atention><!--================================================ NOUVEAU ======================================================-->
+                            <h1>Atenção!</h1>
+                            <p>Este site não é um site de aposta, auxilia apenas na geração de números de loteria para apostar nas lotéricas.</p>
+                        </div>
                     </div>
                 <!--+++++++++++++++++++++++++++++ NUMEROLOGY INFORMATION +++++++++++++++++++++++++++++++-->
                     <div class="numerology">
@@ -132,7 +136,7 @@
                         <div class="contactBtn"><?php echo "<a href='".URL."contato' class='fa-solid fa-square-caret-right'>
                             Entre em contato agora</a>" ?></div>
                     </div>
-                    <div class="palavras-chave">
+                    <div class="palavras-chave"><!-- Só para SEO -->
                             <h1>Palavras-chaves: </h1>
                             <h2>Numerologia</h2>
                             <h2>Gerador</h2>

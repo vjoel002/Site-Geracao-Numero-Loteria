@@ -301,7 +301,7 @@ legend{
     margin-bottom: 15px;
 }
 /*///////////////////////////////////// Right box /////////////////////////////////////////*/
-.principal .right .explications{ /*Nouveau*/
+.principal .right .explications{ 
     background: #fff;
     width: 100%;
     height: auto;
@@ -310,16 +310,26 @@ legend{
     border-radius: 5px;
 }
 .principal .right .explications h1,
-.principal .right .explications h2{/*Nouveau*/
+.principal .right .explications h2{
     text-align: center;
     background: #EFEEEE;
 }
-.principal .right .explications h2{/*Nouveau*/
+.principal .right .explications h1{/*============================================= NOUVEAU ================================================*/
+    font-size: 22px;
+}
+.principal .right .explications h2{
     font-size: 20px;
 }
-.principal .right .explications p{/*Nouveau*/
+.principal .right .explications p{
     padding: 10px 0 5px 0;
-    /*font-size: 2px;*/
+    font-size: 15px;/*============================================= NOUVEAU ================================================*/
+}
+.principal .right .explications .atention h1,/*============================================= NOUVEAU ================================================*/
+.principal .right .explications .atention p{/*============================================= NOUVEAU ================================================*/
+    color: #EE4D30;
+}
+.principal .right .explications .atention{/*============================================= NOUVEAU ================================================*/
+    padding-top: 10px;
 }
 .principal .right{
     width: 50%;
@@ -336,6 +346,9 @@ legend{
     text-align: center; 
     font-family: Apple Chancery, cursive;
 }
+.principal .right .numerologyTable{/*============================================= NOUVEAU ================================================*/
+    font-size: 13.5px;
+}
 .principal .right .numerologyTable .tableHead{
     font-weight: bold;
 }
@@ -349,7 +362,7 @@ legend{
     margin-top: 5px;
     color: #090b13;
     text-align: justify;
-    padding: 0 25px 15px 25px; /*Nouveau*/
+    padding: 0 25px 15px 25px;
     font-size: 15px;
     font-family: Apple Chancery, cursive;
 }
@@ -361,14 +374,13 @@ legend{
 .principal .right .exemple{
     color: #090b13;
     margin-top: 10px;
-    padding: 0 10px 10px 10px;/*Nouveau*/
+    padding: 0 10px 10px 10px;
     text-align: center;
     font-family: Apple Chancery, cursive;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++ PALAVRAS-CHAVES +++++++++++++++++++++++++++++++++++*/
-.palavras-chave h1,
-.palavras-chave h2{
-    font-size: 5px;
+.palavras-chave{/*Só para SEO*/
+    display: none;
 }
 /*----------------------------------------- Contact buttom ----------------------------------*/
 .principal .right .contact{
