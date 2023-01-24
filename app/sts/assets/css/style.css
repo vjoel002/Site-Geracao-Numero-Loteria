@@ -583,12 +583,13 @@ footer .share a{
     max-width: 1000px;
     padding: 0 10px;
     margin: auto;
-    height: 635px;
+    height: auto;/*+++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
 }
 .contact .title{
     text-align: center;
-    margin-bottom: 50px;
-    padding-top: 50px;
+    /*margin-bottom: 10px;
+    padding-top: 10px;*/
+    padding: 10px 0 10px 0;
     font-weight: 400;
     font-size: 35px;
 }
@@ -646,6 +647,7 @@ footer .share a{
 .contact .right-contact .btn-voltar{
     margin-top: 25px;
     font-size: 25px;
+    
 }
 .contact .right-contact a{
     color: #fff;
@@ -661,7 +663,9 @@ footer .share a{
 }
 .modal-container,
 .modal-logo,
-.modal-artigo{
+.modal-artigo,
+.modal-contato{/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
+    background: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -674,7 +678,8 @@ footer .share a{
     transition: opacity 0.15s;
 }
 .open-modal-logo,
-.open-modal-artigo{
+.open-modal-artigo,
+.open-modal-contato{/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
     cursor: pointer; 
 }
 .modal{
@@ -684,11 +689,13 @@ footer .share a{
     padding: 15px;
     border-radius: 5px;
 }
-.modal_artigo{
+.modal_artigo,
+.modal_contato{/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
     background: #fff;
     border-radius: 5px;
 }
-.artigo{
+.artigo,
+.contato{/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
     width: auto;
     height: auto;
     border-radius: 5px;
@@ -707,8 +714,11 @@ footer .share a{
     padding: 5px;
     border-radius: 5px;
 }
-.link-close-artigo{
-    color: red;
+.link-close-artigo,
+.link-close-contato{/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
+    color: #fff;/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
+    background: red;/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
+    width: 30%;
     font-size: 25px;
     text-align: center;
     cursor: pointer;
@@ -728,7 +738,8 @@ footer .share a{
     cursor: pointer;
     margin-left: 95%;
 }
-.link-close-logo{ 
+.link-close-logo,
+.icon-close-contato{/*++++++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/ 
     background: red;
     border-radius: 5px;
     padding: 5px;
@@ -815,8 +826,8 @@ footer .share a{
     }
 
     /*////////////////////////////////////// Contato \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-    .contact{
-        height: 680px;
+    .contact{/*+++++++++++++++++++++++++++++++++++++++++ NOUVEAU +++++++++++++++++++++++++++++++++++++++++++++*/
+        height: auto;
     }
 
     /*////////////////////////////////////// Resultado \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/

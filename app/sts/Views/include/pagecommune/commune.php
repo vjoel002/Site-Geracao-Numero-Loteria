@@ -133,8 +133,7 @@
                     </div>
                     <div class="contact">
                         <p>Se você tem dúvida ou sugestões, por favor, entre em contato com a gente</p>
-                        <div class="contactBtn"><?php echo "<a href='".URL."contato' class='fa-solid fa-square-caret-right'>
-                            Entre em contato agora</a>" ?></div>
+                        <div class="open-modal-contato"><a class='fa-solid fa-square-caret-right'>Entre em contato agora</a></div>
                     </div>
                     <div class="palavras-chave"><!-- Só para SEO -->
                             <h1>Palavras-chaves: </h1>

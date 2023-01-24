@@ -53,8 +53,7 @@
                         </div>
                     </form>
                     <div class="btn-voltar"><?php echo "<a href='".URL."mega-sena' style='color:blue;'>Ir para a Home</a><br><br>";?></div>
-                </div>
-                
+                </div>   
             </div>
         </div>
     </section>
