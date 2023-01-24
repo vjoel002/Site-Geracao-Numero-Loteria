@@ -111,7 +111,7 @@
 </body>
 </html>
 <style>
-    .foter{
+   /* .foter{
         height: auto;
         display: flex;
         justify-content: center;
@@ -122,7 +122,6 @@
     .container03{
         height: auto;
         width: auto;
-        /*border: 2px solid #fff;*/
         margin: 0 100px 0 100px;
     }
     .container01 h1,
@@ -157,8 +156,8 @@
     .card .sobre p{
         font-size: 17px;
         text-align: left;
-    }
-    @media (max-width: 947px){
+    }*/
+    /*@media (max-width: 947px){
         .container01,
         .container02,
         .container03{
@@ -177,5 +176,5 @@
         .container03 h2{
             font-size: 12px;
         }
-    }
+    }*/
 </style>

@@ -127,7 +127,7 @@
                         <p>
                         <?php if(!empty($this->data['database'][4])){extract($this->data['database'][4]);
                             echo $content;} ?> 
-                            <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saíba mais!</a>
+                            <a href="https://excerpts.numilog.com/books/9782904616822.pdf" target="_blank">Saiba mais!</a>
                         </p>
 
                     </div>
