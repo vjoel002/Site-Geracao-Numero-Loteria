@@ -56,7 +56,7 @@
                         </p>
                     </div>
                 <!--</div>-->
-                </div>
+              
             </div> <!--Locaweb n'a pas accepté-->
             <div class="share">
                 <h4>Compartilhar</h4>
@@ -110,71 +110,3 @@
     <script src="<?php echo URL; ?>app/sts/assets/js/script.js"></script>
 </body>
 </html>
-<style>
-   /* .foter{
-        height: auto;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .container01,
-    .container02,
-    .container03{
-        height: auto;
-        width: auto;
-        margin: 0 100px 0 100px;
-    }
-    .container01 h1,
-    .container02 h1,
-    .container03 h1{
-        text-align: left;
-        font-size: 18px;
-        padding: 0 0 10px 0;
-        color: white;
-    }
-    .container01 h2,
-    .container02 h2,
-    .container03 h2{
-        text-align: left;
-        font-size: 15px;
-        color: #d7d6d6;
-        padding: 0 0 10px 0;
-    }
-    .container01 a,
-    .container02 a{
-        color: #d7d6d6;
-        padding: 5px;
-    }
-    .card .sobre{
-        color: black;
-        padding: 10px 15px 0 15px;;
-    }
-    .card .sobre h1{
-        font-size: 20px;
-        padding: 0 0 10px 0;
-    }
-    .card .sobre p{
-        font-size: 17px;
-        text-align: left;
-    }*/
-    /*@media (max-width: 947px){
-        .container01,
-        .container02,
-        .container03{
-        margin: 0 0 0 0;
-        }
-        .container01 h1,
-        .container02 h1,
-        .container03 h1{
-        font-size: 13px;
-        }
-        .container01 a,
-        .container02 a,
-        .container03 h2{
-            font-size: 12px;
-        }
-        .container03 h2{
-            font-size: 12px;
-        }
-    }*/
-</style>

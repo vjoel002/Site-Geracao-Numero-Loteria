@@ -24,25 +24,11 @@ class Milionaria extends ConfigConversion{
             $y = $varInterger / 50;
             $ys = (int)($varInterger / 50);
             $N = (50 * ($y - $ys)) + 1;
-            if($y == null){
-                $_SESSION['title'] = "<div style='font-weight: 500; font-size: 25px; color: red; text-align: center;'>
-                                            Resultado
-                                      </div>";
-                $_SESSION['result'] = "<div style='color: red; background: white;
-                                        padding: 20px; border: 1px solid red;
-                                        border-radius: 5px'>
-                                            Digite alguma palavra no campo de cima!
-                                       </div>";
-            }else{
-                $_SESSION['title'] = "<div style='font-weight: 500; font-size: 25px; color: green; text-align: center;'>
-                                            Resultado
-                                      </div>";
-                $_SESSION['result'] = "<div style='color: green; background: white;
-                                        padding: 20px; border: 1px solid green;
-                                        border-radius: 5px'>
-                                        <span style='font-weight: bold'>".$loadString."</span> deu <span style='font-weight: bold'>".(round($N,0)). "</span> para Milion&aacuteria".
-                                        "</div>";
-            }
+
+            $_SESSION['y'] = $y;
+            $_SESSION['palavra'] = $loadString;
+            $_SESSION['response'] = $N;
+            $this->result();
         }
 
                 //Pegar dados para listar a conteúdo do site
@@ -51,6 +37,8 @@ class Milionaria extends ConfigConversion{
         
                 //Pegar dados para listar os dados bancários
                 $this->data['bankData'] = $getDatabase->bankDataList();
+
+                $this->dbContact();
 
         //$this->data = 0;
         $configMegasena = new \Core\ConfigView("sts/Views/milionaria",$this->data);

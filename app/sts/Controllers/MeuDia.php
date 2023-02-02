@@ -3,7 +3,7 @@ namespace Sts\Controllers;
 
 class MeuDia extends ConfigConversion{
     private string|array|null $data;
-    private array|null $dataForm;
+    public array|null $dataForm;
     public string $dataString;
     private array $dataArray;
     public array|string|null $dataSlug;
@@ -45,6 +45,8 @@ class MeuDia extends ConfigConversion{
         
                 //Pegar dados para listar os dados bancários
                 $this->data['bankData'] = $getDatabase->bankDataList();
+
+                $this->dbContact();
 
         //$this->data = 0;
         $configMeuDia = new \Core\ConfigView("sts/Views/meudia",$this->data);

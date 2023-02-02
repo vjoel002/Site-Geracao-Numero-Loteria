@@ -18,10 +18,10 @@ class MainDatabase extends Conn{
         $querySendForm->bindParam(':conteudo',$receptor['conteudo']);
 
         $querySendForm->execute();
-        if($querySendForm->rowCount()){
-            $_SESSION['msgSending'] = "<p style='color:blue'>Mensagem enviada com sucesso. Obrigado pelo contato!</p>";
+        if($querySendForm->rowCount()){ 
+            $_SESSION['msgSending'] = "<p style='color:blue; background: #D1E7DD; text-align: center; padding:10px; font-size: 25px'>Mensagem enviada com sucesso. Entraremos em contato.</p>";
         }else{
-            $_SESSION['msgSending'] = "<p style='color:red'>Ops! Ocorreu um problema. Por favor, tente mais tarde.</p>";
+            $_SESSION['msgSending'] = "<p style='color:red; background: #F8D7DA; text-align: center; padding:10px; font-size: 25px'>Ops! Ocorreu um problema. Por favor, tente mais tarde.</p>";
         }
     }
 

@@ -1,5 +1,5 @@
 <?php
-namespace Sts\Controllers;
+/*namespace Sts\Controllers;
 
 class Contato{
     private string|array|null $data;
@@ -37,4 +37,4 @@ class Contato{
         $configContact = new \Core\ConfigView("sts/Views/contato/contato", $this->data);
         $configContact->include();
     }
-}
+}*/

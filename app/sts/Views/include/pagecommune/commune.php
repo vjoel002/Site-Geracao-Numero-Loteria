@@ -1,3 +1,11 @@
+                <style>
+                    /*.right .mensagem{
+                        background: #F8D7DA; 
+                        text-align: center; 
+                        padding:10px;
+                        height: auto;
+                    }*/
+                </style>
                 <!--::::::::::::::::::::::::::::::::::::::: TESTE AFILIADO :::::::::::::::::::::::::::::::::::::::::::-->
                 <div class="afilliate">
                     <h2>Ajude-nos!</h2>
@@ -55,6 +63,9 @@
 <!--///////////////////////////////////////////////// RIGHT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
                 
                 <div class="column right">
+                    <div class="mensagem">
+                        <?php if(isset($_SESSION['mensagem'])){echo $_SESSION['mensagem']; unset($_SESSION['mensagem']);} ?>
+                    </div>
                     <div class="explications">
                         <h1>Métodos</h1>
                         <p>A transição da palavra para o número de loteria é feita em duas etapas: conversão e cálculo.</p>
@@ -133,7 +144,7 @@
                     </div>
                     <div class="contact">
                         <p>Se você tem dúvida ou sugestões, por favor, entre em contato com a gente</p>
-                        <div class="open-modal-contato"><a class='fa-solid fa-square-caret-right'>Entre em contato agora</a></div>
+                        <div class="open-modal-contato contactBtn"><a class='fa-solid fa-square-caret-right'> Entre em contato</a></div>
                     </div>
                     <div class="palavras-chave"><!-- Só para SEO -->
                             <h1>Palavras-chaves: </h1>

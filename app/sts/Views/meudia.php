@@ -3,7 +3,7 @@
             <div class="content">
 <!--///////////////////////////////////////////////// LEFT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
                 <div class="column left">
-                    <div class="text"><?php if(!empty($this->data['database'][13])){extract($this->data['database'][13]); echo $content;} ?></div>
+                    <div class="text-meuDia"><?php if(!empty($this->data['database'][13])){extract($this->data['database'][13]); echo $content;} ?></div>
                         <div class="research-result">
                             <div class="title">
                                 Data e horário de nascimento

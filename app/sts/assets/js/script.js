@@ -86,6 +86,70 @@ closeModal_contato();
 
 fechar_link_contato.addEventListener('click', closeModal_contato);
 
+/////////////////////////////////////////// MODAL MENSAGEM DE ENVIO \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+/*const btn_span = getElement('.open-modal-envio');
+const container_envio = getElement('.modal-envio');
+const modal_envio = getElement('.modal_envio');
+const modal_envoi = getElement('.modal_envio'); 
+const fechar_link_envio = getElement('.link-close-envio');
+
+const activeModalClass_envio = 'modal-show';
+
+const openmodal_envio = () => container_envio.classList.add(activeModalClass_envio);
+const closeModal_envio = () => container_envio.classList.remove(activeModalClass_envio);
+
+btn_span.addEventListener('click', openmodal_envio);
+container_envio.addEventListener('click', (event) => {
+    if (modal_envio.contains(event.target)) return;
+closeModal_envio();
+});
+
+fechar_link_envio.addEventListener('click', closeModal_envio);*/
+
+/////////////////////////////////////////////// FORMULÀRIO \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+const formNewUser = document.getElementById("form-contact");
+if (formNewUser) {
+    formNewUser.addEventListener("submit", async(e) => {
+        //Receber o valor do campo
+        var name = document.querySelector("#nome").value;
+        // Verificar se o campo esta vazio
+        if (name === "") {
+            e.preventDefault();
+            document.getElementById("msg_Contact").innerHTML = "<p style='color: #f00;'>Erro: Necessário preencher o campo nome!</p>";
+            return;
+        }
+
+        //Receber o valor do campo
+        var email = document.querySelector("#email").value;
+        // Verificar se o campo esta vazio
+        if (email === "") {
+            e.preventDefault();
+            document.getElementById("msg_Contact").innerHTML = "<p style='color: #f00;'>Erro: Necessário preencher o campo e-mail!</p>";
+            return;
+        }
+
+        //Receber o valor do campo
+        var assunto = document.querySelector("#assunto").value;
+        // Verificar se o campo esta vazio
+        if (assunto === "") {
+            e.preventDefault();
+            document.getElementById("msg_Contact").innerHTML = "<p style='color: #f00;'>Erro: Necessário preencher o campo assunto!</p>";
+            return;
+        }
+
+        //Receber o valor do campo
+        var conteudo = document.querySelector("#conteudo").value;
+        // Verificar se o campo esta vazio
+        if (conteudo === "") {
+            e.preventDefault();
+            document.getElementById("msg_Contact").innerHTML = "<p style='color: #f00;'>Erro: Necessário preencher o campo conteúdo!</p>";
+            return;
+        }
+    });
+}
+
 
 
 
@@ -113,3 +177,4 @@ textoCopiado.setSelectionRange(0, 99999)
 document.execCommand("copy");
 alert("administration@oganhador.com.br  copiado com sucesso!");
 }
+
